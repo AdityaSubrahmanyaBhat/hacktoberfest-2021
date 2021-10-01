@@ -1,5 +1,5 @@
 # hacktoberfest-2021
-You can add dsa programs here
+This repo is for hacktoberfest-2021
 
 fork the repo
 clone it
