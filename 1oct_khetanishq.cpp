@@ -27,7 +27,7 @@ public:
 int main()
 {
     int t;
-    cout<< "Enter 1 to continue"
+    cout<< "Enter 1 to continue";
     Cout<< "0 to End";
     cin >> t;
     while (t--)
