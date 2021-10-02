@@ -6,3 +6,5 @@ loop to add our current Fibonacci numbers
 <.>>>>[-<[>+<-]<[>+>+<<-]>>[<<+>>-[<<+>>-[<<+>>-[<<+>>-[<<+>>-[<<+>>-[<<+>>-[<<+>>-[<<+>>-[-<<[-]>>[<<+>>-]>>>[-]+<+<<
 Set the flag bit back to one and move to the next digit over
 ]]]]]]]]]]+>>>]<<<<[>>>]<<]
+
+brainfuck!!!!
