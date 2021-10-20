@@ -1,0 +1,226 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: black;
+}
+h2{
+    color:white;
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+#center{
+    flex: content;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    display:inline-block;
+}
+
+#center{
+    flex: content;
+    margin-top: 100px;
+    margin-left: 400px;
+    height: 600px;
+    width:700px;
+border:1px solid whitesmoke;
+border-radius: 20px;
+backdrop-filter:blur(10px);
+box-shadow:0px 0px 10px 2px red;
+}
+#username{
+    flex:content;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 50px;
+    color:whitesmoke;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    height:30px;
+    width:200px;
+    border-radius: 10px;
+    text-align: center;
+    letter-spacing: 5px;
+    background-color: rgba(255,255,255,0.2);
+}
+#password{
+    flex:content;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    margin-top: 50px;
+    margin-left: 50px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    height:30px;
+    width:200px;
+    border-radius: 10px;
+    text-align: center;
+    letter-spacing: 5px;
+    background-color: rgba(255,255,255,0.2);
+}
+#google{
+    flex:content;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    margin-top: 50px;
+    margin-left: 50px;
+    padding-left: 14px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 4px;
+    height:50px;
+    width:250px;
+    border-radius: 10px;
+    background-color: white;
+    color:black;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+#facebook{
+    flex:content;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    margin-top: 50px;
+    margin-left: 50px;
+    padding-left: 14px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 4px;
+    height:50px;
+    width:250px;
+    border-radius: 10px;
+    color:black;
+    font-weight: 700;
+    letter-spacing: 2px;
+    
+    
+}
+#login{
+    flex:content;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    margin-top: 50px;
+    margin-left: 50px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    height:40px;
+    width:220px;
+    border-radius: 10px;
+    text-align: center;
+    letter-spacing: 5px;
+    background-color: violet;
+    color:black;
+    font-weight: 700;
+}
+#circle1{
+    content:'';
+    clip-path:circle(40%);
+    background:linear-gradient(black,rgb(255, 0, 43));
+    position:absolute;
+    margin-top: 50px;
+    margin-left: 50px;
+    height: 220px;
+    width:220px;
+    left: 240px;
+    top:-30px;
+}
+#circle2{
+    content:'';
+    clip-path:circle(40%);
+    background:linear-gradient(black,rgb(255, 0, 43));
+    position:absolute;
+    margin-top: 50px;
+    margin-left: 50px;
+    height: 220px;
+    width:220px;
+    left: 1000px;
+    top:475px;
+}
+#image{
+    position: absolute;
+    left:310px;
+    top:150px;
+}
+#imgo{
+
+    position:absolute;
+    height: 30px;
+    width:30px;
+    left:55px;
+    top:442px;
+}
+#imgo2{
+    position:absolute;
+    height: 30px;
+    width:30px;
+    left:53px;
+    top:540px;
+}
+#circle3{
+    content:'';
+    clip-path:circle(40%);
+    background:linear-gradient(black,rgb(255, 0, 43));
+    position:absolute;
+    margin-top: 50px;
+    margin-left: 50px;
+    height: 220px;
+    width:220px;
+    left: 500px;
+    top:400px;
+}
+#circle4{
+    content:'';
+    clip-path:circle(40%);
+    background:linear-gradient(rgb(255, 0, 43),black);
+    position:absolute;
+    margin-top: 50px;
+    margin-left: 50px;
+    height: 220px;
+    width:220px;
+    left: 60px;
+    top:250px;
+}
+#circle5{
+    content:'';
+    clip-path:circle( 100px at right 100%);
+    background:linear-gradient(rgb(255, 0, 43),black);
+    position:absolute;
+    margin-top: 50px;
+    margin-left: 50px;
+    height: 220px;
+    width:220px;
+    left: 1200px;
+    top:-50px;
+}
+#facebook:hover{
+    border-radius: 20px;
+    transform:translateY(-10px);
+    transition: 0.5s;
+}
+#google:hover{
+    border-radius: 20px;
+    transform:translateY(-10px);
+    transition: 0.5s;
+}
+#login:hover{
+    border-radius: 20px;
+    transform:translateY(-10px);
+    transition: 0.5s;
+}
