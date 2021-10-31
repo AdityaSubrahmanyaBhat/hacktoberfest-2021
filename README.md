@@ -5,4 +5,4 @@ This repo is for hacktoberfest-2021
 2. Clone it
 3. Add your files
 4. Make your changes
-5. Submit a pr
+5. Submit a pr Pull request
